@@ -13,16 +13,16 @@
 // }
 // Як ви вкажете типи для аргументів і значень цих функцій, що повертаються?
 
-function showMessage(message: string): void {
+export function showMessage(message: string): void {
     // @ts-ignore
     console.log(message);
 }
 
-function calc(num1: number, num2: number): number {
+export function calc(num1: number, num2: number): number {
     return num1 + num2;
 }
 
-function customError(): never {
+export function customError(): never {
     // @ts-ignore
     throw new Error('Error');
 }
