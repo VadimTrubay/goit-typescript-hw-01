@@ -22,13 +22,13 @@
 
 
 interface Pages {
-    title: string;
-    likes: number;
-    accounts: string[];
-    status: 'open' | 'close';
-    details?: {
-        createAt: Date;
-        updateAt: Date;
-    }
+  title: string;
+  likes: number;
+  accounts: Array<string>;
+  status: 'open' | 'close';
+  details?: {
+    createAt: Date;
+    updateAt: Date;
+  }
 }
 

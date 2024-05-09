@@ -23,15 +23,15 @@
 // });
 
 type User = {
-    name: string;
-    surname: string;
-    email: string;
-    password: string;
+  name: string;
+  surname: string;
+  email: string;
+  password: string;
 }
 
 // @ts-ignore
 function createOrUpdateUser(initialValues: Partial<User>) {
-    // Оновлення користувача
+  // Оновлення користувача
 }
 
 createOrUpdateUser({email: 'user@mail.com', password: 'password123'});

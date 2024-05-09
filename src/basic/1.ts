@@ -12,6 +12,6 @@ const username: string = 'Max';
 const toggle: boolean = true;
 const empty: null = null;
 let callback = (a: number): number => {
-    return 100 + a
+  return 100 + a
 };
 
